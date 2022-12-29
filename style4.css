@@ -1,0 +1,27 @@
+.darkblue4 {
+  color: #37517e;
+}
+
+#pricing4 {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#pricing4 h2 {
+  font-size: 32px;
+  font-weight:900;
+}
+
+#pricing4 .underline4 {
+  display: inline-block;
+  background: #ddd;
+  width: 120px;
+  height: 1px;
+  justify-content: center;
+}
+
+#pricing4 .box4 {
+  display: flex;
+  justify-content: center;
+}
