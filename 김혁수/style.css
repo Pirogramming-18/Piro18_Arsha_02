@@ -1,0 +1,137 @@
+@import "../reset.css";
+* {
+  font-family: "Jost", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  background-color: #023b6d;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 32px;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+header .logo1 {
+  display: none;
+  padding-left: 10px;
+}
+header .logo1 img {
+  height: 25px;
+}
+header .current-template1 {
+  padding-left: 10px;
+}
+header .navigate1 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+header .navigate1 a:last-child {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  background-color: #00a6eb;
+  margin-left: 10px;
+  padding: 0 10px;
+  color: white;
+}
+header .navigate1 .download {
+  background-color: #00a6eb;
+}
+#second-header {
+  box-sizing: content-box;
+  height: 30px;
+  background-color: #37517e;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 32px;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  padding: 15px 12px;
+  z-index: 100;
+}
+#second-header .arsha {
+  font-size: 30px;
+}
+#second-header .menubar {
+  font-size: 28px;
+}
+#hero {
+  background-color: #37517e;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 92px;
+}
+#hero .container1 {
+  padding: 72px 12px 0 12px;
+}
+#hero .container1 .container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#hero .container1 .container-img img{
+  width: 80%;
+}
+#hero .container1 .container-introduce {
+  padding-top: 24px;
+  text-align: center;
+}
+#hero .container1 .container-introduce .introduce-big {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+#hero .container1 .container-introduce .introduce-small {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#hero .container1 .btn-container{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+#hero .container1 .btn-container .btn-get-started{
+  display: flex;
+  align-items: center;
+  background-color: rgb(71, 178, 228);
+  border-radius: 50px;
+  padding: 10px 24px;
+  height: 45px;
+}
+#hero .container1 .btn-container .btn-watch-video{
+  display: flex;
+  align-items: center;
+
+}
+#hero .container1 .btn-container .btn-watch-video .fa-circle-play {  
+  font-size: 32px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  header .logo1 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #second-header {
+    height: 42.5px;
+  }
+}
