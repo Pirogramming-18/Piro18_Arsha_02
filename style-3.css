@@ -25,16 +25,13 @@
     overflow: hidden;
     justify-content: center;
     box-sizing: border-box;
-
 }
 
 .cta-mess-3{
     float: left;
     text-align: left;
     width: 966px;
-    /* 이거 수정해주시면 됩니다 */
     margin-right: 90px;
-    /* !! */
 }
 
 .cta-3 h3 {
@@ -59,7 +56,6 @@
 }
 
 .cta-btn-3 {
-    float: right;
     font-family: "Jost", sans-serif;
     display: flex;
     align-items: center;
