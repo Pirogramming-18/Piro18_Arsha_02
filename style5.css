@@ -36,7 +36,7 @@ footer{
     line-height: 1;
     color: #37517e;
     text-align: center;
-}
+} 
 
 #subscribe-description-5{
     font-size: 1.1rem;
@@ -203,6 +203,7 @@ footer{
     font-weight: 700;
 }
 
+
 @media ( max-width: 990px ) {
     #footer-list-5{
         display: grid;
@@ -233,3 +234,4 @@ footer{
         margin-right: 0;
     }
 }
+
