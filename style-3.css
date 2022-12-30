@@ -4,10 +4,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Jost", sans-serif;
 }
 
-.col-lg-9 {
-    flex: 0 0 auto;
-    width: 75%;
-}
 .text-center {
     text-align: center!important;
 }
@@ -25,11 +21,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.cta-con-3{
-    display: flex;
-    justify-content: left;
-}
-
 .cta-mess-3{
     float: left;
     text-align: left;
@@ -38,13 +29,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 108px;
     justify-content: center;
 }
-
-@media ( max-width: 990px ) {
-    .cta-mess-3{
-        text-align: center;
-    }
-}
-
 
 .cta-3 h3 {
     color: #fff;
@@ -77,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     width: 330px;
 }
+
 .cta-3 button{
     background-color: rgba(40, 58, 90, 0.9);
     font-weight: 500;
@@ -100,8 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 /*port*/
 
 .port-3{
-    margin: 0 68.4px;
-    padding: 0 20px;
     padding-top: 60px;
     overflow: hidden;
     box-sizing: border-box;
@@ -177,14 +160,6 @@ h1, h2, h3, h4, h5, h6 {
 .port-menu-3 li:hover, #select {
     background: #47b2e4;
     color: #fff;
-}
-
-.port-ficture-3{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    height: 1507.85px;
-    width: 720px;
 }
 
 .port-item-3{
@@ -404,4 +379,51 @@ h1, h2, h3, h4, h5, h6 {
 
 .mem-sns-3 a i::before {
     box-sizing: border-box;
+}
+
+@media ( max-width: 990px ) {
+    .cta-mess-3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .cta-mess-3 p {
+        content: center;
+    }
+    .cta-3 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .cta-con {
+        display: flex;
+        position: relative;
+        width: 80%;
+        flex-direction: column;
+    }
+    .cta-btn-3 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: calc(1.5rem * .5);
+        padding-left: calc(1.5rem * .5);
+    }
+    .port-con-3 {
+        display: grid;
+    }
+    .port-info {
+        opacity: 0;
+    }
+    .port-main {
+        grid-template-rows: 336px 336px;
+    }
+    .team-main-3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.3rem;
+        margin-right: 5.3rem;
+    }
 }
