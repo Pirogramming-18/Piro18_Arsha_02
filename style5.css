@@ -1,0 +1,192 @@
+@import "./reset.css";
+
+.blind{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+/* footer part */
+footer{
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+
+}
+
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    font-weight: 600;
+    background-color: rgb(239, 242, 245);
+}
+
+
+#newsletter-title{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    color: #37517e;
+    text-align: center;
+}
+
+#subscribe-description{
+    font-size: 1.1rem;
+    color: rgb(50, 44, 44);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#newsletter form{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#newsletter input{
+    margin-left: 20px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 8px;
+    width: 300px;
+}
+
+#newsletter button{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    right: -40px;
+    border: 0;
+    border-radius: 20px;
+    margin: 15px 30px;
+    text-align: center;
+    text-align: center;
+    height:2.5rem;
+    width: 7rem;
+    background-color: #47b2e4;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+#newsletter button:hover{
+    background-color: #1ba1df;
+}
+
+#footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+
+
+#contact > h5{
+    font-size: 1.5rem;
+    color: #37517e;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#contact > p{
+    line-height: 1.5rem;
+    color: rgb(119, 116, 116);
+    font-size: 0.9rem;
+}
+
+.strong{    
+    font-weight: 700;
+}
+
+link i{
+    width: 30px;
+    height: 20px;
+}
+
+#link,
+#service,
+#sns-title{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #37517e;
+}
+
+
+
+#link-list i,
+#service-list i
+{
+    margin-right: 2px;
+    width: 20px;
+}
+
+#link-list li,
+#service-list li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#sns{
+    margin: 30px 10px 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sns > a{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #47b2e4;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    
+}
+
+#footer-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 81px;
+    background-color: #486da3;
+    margin-top: 4rem;
+}
+
+#footer-end a{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+
+#copyright{
+    margin-left: 3rem;
+    color: white;
+}
+
+#designed{
+    margin-right: 4rem;
+    color: white;
+}
+
+#copyright .strong{
+    font-weight: 700;
+}
