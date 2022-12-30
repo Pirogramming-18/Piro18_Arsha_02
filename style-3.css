@@ -1,21 +1,36 @@
 @import "reset.css";
+
 @media screen and (min-width: 992px){
-    .item{};
-};
+    .text-lg-start {
+        text-align: left!important;
+    }
+}
+
+@media (min-width: 992px){
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .port-item-3 img{
+        
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+}
 
 .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
 }
-
 .text-center {
     text-align: center!important;
 }
-
 .align-middle {
     vertical-align: middle!important;
 }
-
 .cta-3 {
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./image/Bootstrapmade33.jpg), fixed center center;
     background-size: cover;
@@ -25,6 +40,7 @@
     overflow: hidden;
     justify-content: center;
     box-sizing: border-box;
+
 }
 
 .cta-mess-3{
@@ -42,13 +58,11 @@
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
-
 .row-3{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .cta-3 p {
     color: #fff;
     margin-top: 0;
@@ -56,6 +70,7 @@
 }
 
 .cta-btn-3 {
+    float: right;
     font-family: "Jost", sans-serif;
     display: flex;
     align-items: center;
@@ -65,7 +80,6 @@
     padding: 0 12px;
     width: 330px;
 }
-
 .cta-3 button{
     background-color: rgba(40, 58, 90, 0.9);
     font-weight: 500;
@@ -80,8 +94,237 @@
     color: #fff;
     white-space: nowrap;
 }
-
 .cta-3 button:hover{
     background: #47b2e4;
     border: 2px solid #47b2e4;
+}
+
+/*port*/
+
+.port-3 , .team-3{
+    margin: 0 68.4px;
+    padding: 0 20px;
+    padding-top: 60px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.port-title, .team-title-3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.port-title h2, .team-title-3 h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
+.port-title h2::before, .team-title-3 h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.port-title h2::after, .team-title-3 h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.port-title p, .team-title-3 p {
+    padding: 0 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.port-menu-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.port-menu-3 li{
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.port-menu-3 li:hover, #select {
+    background: #47b2e4;
+    color: #fff;
+}
+
+.port-ficture-3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 1507.85px;
+    width: 720px;
+}
+
+.port-item-3{
+    height: auto;
+    width: 415.99px;
+    display: flex;
+    flex: 0 0 auto;
+    margin-bottom: 30px;
+    padding: 0 12px;
+}
+
+.port-item-3 img{
+    overflow: hidden;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+.port-con-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1286.27px;
+    position: relative;
+}
+
+/*Team*/
+
+.team-3{
+    background-color: #f3f5fa;
+    padding: 60px, 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.team-main-3{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 636px);
+    margin: 0 12px;
+    justify-content: center;
+}
+
+.member-3 {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.mem-info-3 {
+    padding-left: 30px;
+}
+
+.mem-info-3 h4 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #37517e;
+}
+
+.mem-pic-3 {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.mem-info-3 span{
+    display: block;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding-bottom: 11px;
+    position: relative;
+}
+
+.mem-info-3 span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+
+.mem-info-3 p{
+    margin: 13px 0 0 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.col{
+    padding: 0 10px;
+}
+
+.mem-sns-3{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mem-sns-3 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #eff2f8;
+    width: 32px;
+    height: 32px;
+    transition: ease-in-out 0.3s;
+    margin-right: 7px;
+}
+
+.mem-sns-3 a i{
+    color: #37517e;
+    font-size: 16px;
+}
+
+.mem-sns-3 a:hover{
+    background: #47b2e4;
+}
+
+.mem-sns-3 a i:hover{
+    color: #eff2f8
+}
+
+.mem-sns-3 a i::before {
+    box-sizing: border-box;
 }
