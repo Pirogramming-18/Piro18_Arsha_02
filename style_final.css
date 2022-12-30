@@ -600,6 +600,24 @@ footer {
   font-weight: 700;
 }
 
+#back-to-top{
+  z-index: 1000;
+  display: inline;
+
+  bottom: 15px;
+  right: 15px;
+  position: fixed;
+  margin-left: 20px;
+  background-color: #1ba1df;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 50%;
+}
+
+
+
 @media (max-width: 1350px) {
   .normal-text4 {
     width: 900px;
