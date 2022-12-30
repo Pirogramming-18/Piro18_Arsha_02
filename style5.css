@@ -18,7 +18,7 @@ footer{
 
 }
 
-#newsletter-5{
+#newsletter-5{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
