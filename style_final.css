@@ -660,6 +660,28 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 339px);
   }
+  .normal-text4 {
+    width: 550px;
+  }
+  #frequency4 .container_question4 {
+    width: 550px;
+    padding:0;
+  }
+  #contact4 .normal-text4{
+    width: 550px;
+  }
+  #contact4 .container_contact4 {
+    position:relative;
+    width:428px;
+  }
+  #contact4 .container_contact4 .first-contact-box4 {
+    float: none;
+    margin-right: 0;
+  }
+  #contact4 .container_contact4 .second-contact-box4 {
+    float: none;
+    margin-top:20px;
+  }
 }
 
 @media (max-width: 767px) {
