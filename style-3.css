@@ -1,21 +1,25 @@
 @import "reset.css";
+
 @media screen and (min-width: 992px){
-    .item{};
-};
+    .text-lg-start {
+        text-align: left!important;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+}
 
 .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
 }
-
 .text-center {
     text-align: center!important;
 }
-
 .align-middle {
     vertical-align: middle!important;
 }
-
 .cta-3 {
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./image/Bootstrapmade33.jpg), fixed center center;
     background-size: cover;
@@ -25,6 +29,7 @@
     overflow: hidden;
     justify-content: center;
     box-sizing: border-box;
+
 }
 
 .cta-mess-3{
@@ -42,13 +47,11 @@
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
-
 .row-3{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .cta-3 p {
     color: #fff;
     margin-top: 0;
@@ -56,6 +59,7 @@
 }
 
 .cta-btn-3 {
+    float: right;
     font-family: "Jost", sans-serif;
     display: flex;
     align-items: center;
@@ -65,7 +69,6 @@
     padding: 0 12px;
     width: 330px;
 }
-
 .cta-3 button{
     background-color: rgba(40, 58, 90, 0.9);
     font-weight: 500;
@@ -80,8 +83,112 @@
     color: #fff;
     white-space: nowrap;
 }
-
 .cta-3 button:hover{
     background: #47b2e4;
     border: 2px solid #47b2e4;
+}
+
+/*port*/
+
+.port-3 {
+    margin: 0 68.4px;
+    padding: 0 20px;
+    padding-top: 60px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.port-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.port-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
+.port-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.port-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.port-title p{
+    padding: 0 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.port-menu-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.port-menu-3 li{
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.port-menu-3 li:hover, #select {
+    background: #47b2e4;
+    color: #fff;
+}
+
+.port-ficture-3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 1507.85px;
+    width: 720px;
+}
+
+.port-item-3{
+    display: flex;
+    flex: 0 0 auto;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.port-item-3 img{
+    overflow: hidden;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
