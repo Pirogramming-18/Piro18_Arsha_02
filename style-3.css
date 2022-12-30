@@ -206,16 +206,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .port-info {
-    width: 416px;
+    width: 388px;
     display: flex;
     opacity: 0;
     position: absolute;
-    left: 15.5px;
+    left: 15px;
     bottom: 31px;
     z-index: 10;
-    right: 45px;
+    transition:all 0.3s;
+    right: 15px;
     background: rgba(55, 81, 126, 0.8);
-    padding: 10px 15px;
+    padding: 0px 15px;
     height: 40px;
 
 }
@@ -256,6 +257,8 @@ h1, h2, h3, h4, h5, h6 {
 .port-info a:hover{
     color: #47b2e4;
 }
+
+
 
 /*Team*/
 
@@ -418,18 +421,17 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: 336px 336px;
         margin: 10px;
     }
-    .port-info {
-        opacity: 1;
-        right: 39rem;
-        left: 1rem;
-    }
+
     .port-info a{
         left: 186px;
         right: 0px;
+        padding-right: 0;
+        margin-right: 0;
     }
-    .port-item-3{
-        width: 336px;
-    }
+    /* .port-item-3{
+        width: auto;
+
+    } */
     .team-main-3 {
         display: flex;
         flex-direction: column;
@@ -438,5 +440,35 @@ h1, h2, h3, h4, h5, h6 {
     }
     .gri{
         display: grid;
+    } 
+    .port-con-3{
+        display: flex;
+        overflow: visible;
+        flex-wrap: wrap;
+    }
+    .port-info{
+        display: flex;
+        display: flex;
+        opacity: 0;
+        position: absolute;
+        left: 15px;
+        bottom: 31px;
+        z-index: 10;
+        transition:all 0.3s;
+        right: 15px;
+        background: rgba(55, 81, 126, 0.8);
+        padding: 0px 15px;
+        height: 40px;
+    }
+} 
+
+@media ( max-width: 768px ) {
+    .text-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cta-3 button{
+        margin-right: 830px;
     }
 }
