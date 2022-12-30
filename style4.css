@@ -390,3 +390,41 @@ h6 {
   text-decoration: none;
   margin-bottom: 2.5px;
 }
+
+@media (max-width: 1350px) {
+  .normal-text4 {
+    width: 900px;
+  }
+  .box4 > .container-box4 {
+    padding: 40px 20px;
+  }
+  .container-box4 li{
+    font-size: 14px;
+  }
+  #frequency4 .container_question4 {
+    width: 900px;
+    padding:0;
+  }
+  #contact4 .normal-text4{
+    width: 900px;
+  }
+  #contact4 .first-contact-box4 .map_background4 {
+    width: 368px;
+  }
+  #contact4 .container_contact4 {
+    display: inline-block;
+    width: 900px;
+    text-align: left;
+  }
+  #contact4 .container_contact4 .second-contact-box4>.contact_box_container4>input {
+    width: 350px;
+  }
+  #contact4 .container_contact4 .second-contact-box4>.contact_box_container4:nth-of-type(3)>input {
+    width: 350px;
+  }
+  #contact4 .container_contact4 .second-contact-box4>.contact_box_container4:nth-of-type(4)>input {
+    width: 350px;
+    height: 136px;
+  }
+}
+
