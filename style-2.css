@@ -309,8 +309,8 @@
 }
 
 .sevices-box-1-2, .sevices-box-2-2, .sevices-box-3-2, .sevices-box-4-2 {
-    width: 15rem;
-    height: 10rem;
+    width: 19rem;
+    height: 17rem;
     box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
     padding: 50px 30px;
     background: #fff;
@@ -375,7 +375,7 @@
 
 @media (max-width: 1400px) {
     .sevices-box-1-2, .sevices-box-2-2, .sevices-box-3-2, .sevices-box-4-2 {
-        width: 12.5rem;   
+        width: 16.2rem;   
     }
 }
 
@@ -386,13 +386,21 @@
         "box box"
     }
     .sevices-box-1-2, .sevices-box-2-2, .sevices-box-3-2, .sevices-box-4-2 {
-        width: 17.2rem; 
-        height: 8rem;  
+        width: 28.6rem; 
+        height: 14.8rem;  
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+    .sevices-boxes-2 {
+        grid-template-areas:
+        "box"
+        "box"
+        "box"
+        "box"
+    }
     .sevices-box-1-2, .sevices-box-2-2, .sevices-box-3-2, .sevices-box-4-2 {
-        width: 12.5rem;   
+        width: 33rem;
+        height: 14.8rem;     
     }
 }
