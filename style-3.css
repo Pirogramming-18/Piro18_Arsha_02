@@ -1,22 +1,5 @@
 @import "reset.css";
 
-@media screen and (min-width: 992px){
-    .text-lg-start {
-        text-align: left!important;
-    }
-}
-
-@media (min-width: 992px){
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-    .port-item-3 img{
-        
-    }
-}
-
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Jost", sans-serif;
 }
@@ -44,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-con-3{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .cta-mess-3{
@@ -55,6 +38,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 108px;
     justify-content: center;
 }
+
+@media ( max-width: 990px ) {
+    .cta-mess-3{
+        text-align: center;
+    }
+}
+
 
 .cta-3 h3 {
     color: #fff;
