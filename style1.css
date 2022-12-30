@@ -35,7 +35,7 @@ header {
 }
 header .logo-divice-container1 {
   /* display: none; */
-  display: inline-block;
+  display: none;
   align-items: center;
 }
 header .logo1 {
@@ -174,10 +174,6 @@ header .navigate1 a:last-child {
   justify-content: center;
   background-color: #37517e;
   height: 700px;
-  position: absolute;
-  top: 92px;
-  right: 0;
-  left: 0;
 }
 #hero1 .container1 {
   padding: 30px 20px 0 20px;
@@ -241,8 +237,6 @@ header .navigate1 a:last-child {
   margin-right: 10px;
 }
 main {
-  position: absolute;
-  top: 790px;
 }
 main #clients1 {
   padding: 12px 0;
