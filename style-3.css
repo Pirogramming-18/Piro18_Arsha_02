@@ -40,7 +40,11 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     overflow: hidden;
     justify-content: center;
-    box-sizing: border-box;
+}
+
+.cta-con-3{
+    display: flex;
+    justify-content: center;
 }
 
 .cta-mess-3{
@@ -48,6 +52,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     width: 966px;
     margin-right: 90px;
+    margin-left: 108px;
+    justify-content: center;
 }
 
 .cta-3 h3 {
@@ -78,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     max-width: 100%;
     padding: 0 12px;
+    margin-top: 20px;
     width: 330px;
 }
 .cta-3 button{
@@ -90,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
+    margin-right: 60px;
     border: 2px solid #fff;
     color: #fff;
     white-space: nowrap;
@@ -101,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*port*/
 
-.port-3 , .team-3{
+.port-3{
     margin: 0 68.4px;
     padding: 0 20px;
     padding-top: 60px;
@@ -147,10 +155,11 @@ h1, h2, h3, h4, h5, h6 {
     left: calc(50% - 20px);
 }
 
-.port-title p, .team-title-3 p {
+.port-title p{
     padding: 0 20px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
+    line-height: 1.4rem;
 }
 
 .port-menu-3{
@@ -195,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 0 auto;
     margin-bottom: 30px;
     padding: 0 12px;
+    max-width: 100%;
 }
 
 .port-item-3 img{
@@ -212,10 +222,15 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     height: 1286.27px;
     position: relative;
+    background-size: cover;
 }
 
-.port-item:hover > .port-info{
-    opacity: 0;
+.port-main:hover > .port-info {
+    opacity: 1;
+}
+
+.mem-sns-3 a:hover > i{
+    color: #eff2f8
 }
 
 .port-main{
@@ -226,16 +241,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .port-info {
     display: flex;
-    opacity: 1;
+    opacity: 0;
     position: absolute;
-    left: 12px;
+    left: 15.5px;
     bottom: 31px;
     z-index: 10;
-    right: 15px;
-    transition: all 0.3s;
+    right: 21px;
     background: rgba(55, 81, 126, 0.8);
     padding: 10px 15px;
-    width: 385px;
+    width: auto;
     height: 40px;
 }
 
@@ -266,8 +280,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     left: 250px;
     right: 40px;
-    font-size: 24px;
-    top: calc(50% - 18px);
+    font-size: 21px;
     color: #fff;
     transition: 0.3s;
     margin-left: 14px;
@@ -280,10 +293,21 @@ h1, h2, h3, h4, h5, h6 {
 /*Team*/
 
 .team-3{
-    background-color: #f3f5fa;
-    padding: 60px, 0;
+    background: #f3f5fa;
     margin: 0;
     overflow: hidden;
+    background-size: cover;
+    padding: 0 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.team-title-3 p {
+    padding: 0 107px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    line-height: 1.4rem;
 }
 
 .team-main-3{
@@ -291,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
     --bs-gutter-y: 0;
     display: grid;
     grid-template-columns: repeat(2, 636px);
-    margin: 0 12px;
+    margin: 0;
     justify-content: center;
 }
 
@@ -304,6 +328,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     margin-top: 2px;
     margin-bottom: 20px;
+    background-size: cover;
 }
 
 .mem-info-3 {
