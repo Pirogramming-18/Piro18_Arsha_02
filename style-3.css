@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .port-info {
+    width: 416px;
     display: flex;
     opacity: 0;
     position: absolute;
@@ -215,8 +216,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 45px;
     background: rgba(55, 81, 126, 0.8);
     padding: 10px 15px;
-    width: auto;
     height: 40px;
+
 }
 
 .port-info h4 {
