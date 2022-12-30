@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #47b2e4;
 }
 
-.mem-sns-3 a i:hover{
+.mem-sns-3 a:hover > i{
     color: #eff2f8
 }
 
