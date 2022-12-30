@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .align-middle {
     vertical-align: middle!important;
 }
+
 .cta-3 {
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./image/Bootstrapmade33.jpg), fixed center center;
     background-size: cover;
@@ -40,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     justify-content: center;
     box-sizing: border-box;
-
 }
 
 .cta-mess-3{
@@ -214,6 +214,69 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+.port-item:hover > .port-info{
+    opacity: 0;
+}
+
+.port-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.port-info {
+    display: flex;
+    opacity: 1;
+    position: absolute;
+    left: 12px;
+    bottom: 31px;
+    z-index: 10;
+    right: 15px;
+    transition: all 0.3s;
+    background: rgba(55, 81, 126, 0.8);
+    padding: 10px 15px;
+    width: 385px;
+    height: 40px;
+}
+
+.port-info h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.port-info p {
+    font-family: "Open Sans", sans-serif;
+    color: #f9fcfe;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.port-info a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    right: 40px;
+    font-size: 24px;
+    top: calc(50% - 18px);
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 14px;
+}
+
+.port-info a:hover{
+    color: #47b2e4;
+}
+
 /*Team*/
 
 .team-3{
@@ -239,7 +302,6 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     transition: 0.5s;
     display: flex;
-    align-items: flex-start;
     margin-top: 2px;
     margin-bottom: 20px;
 }
