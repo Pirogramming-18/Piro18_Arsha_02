@@ -29,7 +29,7 @@ header {
   top: 0;
   height: 32px;
   align-items: center;
-  color: rgba(255,255,255,.5);;
+  color: rgba(255,255,255,.5);
   justify-content: space-between;
   z-index: 100;
 }
@@ -38,9 +38,13 @@ header .logo-divice-container {
   align-items: center;
 }
 header .logo1 {
+  display: flex;
   align-items: center;
   padding-left: 10px;
   margin-right: 30px;
+}
+header .logo1 a {
+  height: 25px;
 }
 header .logo1 img {
   height: 25px;
@@ -54,8 +58,8 @@ header .divice-icon-container .divice-icon:hover {
 header .divice-icon-container .divice-icon:first-child {
   color: white;
 }
-header .current-template1 {
-  padding-left: 10px;
+header .current-template1 > a{
+  margin-left: 10px;
 }
 header .current-template1 .prev1:hover, .next1:hover{
   color: white;
@@ -233,7 +237,7 @@ main #clients .container .otherlogo:hover {
   cursor: pointer;
 }
 main #clients .container .otherlogo img {
-  width: 40%;
+  width: 30%;
 }
 main #about {
   padding: 60px 0;
